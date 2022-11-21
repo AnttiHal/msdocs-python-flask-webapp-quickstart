@@ -4,7 +4,7 @@ on: [push]
 
 env:
   AZURE_WEBAPP_NAME: icy-water-94f7dfd28cf14236bd92adc4d71adaab
-  AZURE_WABAPP_PACKAGE_PATH: '.'
+  AZURE_WEBAPP_PACKAGE_PATH: '.'
 
 jobs:
   build:
